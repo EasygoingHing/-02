@@ -1,0 +1,15 @@
+﻿<Window x:Class="AccidentGraph.Autorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Closed="Window_Closed"   
+        Title="Menu authorization" Height="334" Width="294" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Minimized">
+    <Grid Background="Bisque">
+        <Button x:Name="btnAutorization"  FontSize="20"  Content="Authorization" HorizontalAlignment="Center" VerticalAlignment="Top" Width="174" Margin="0,204,0,0" Height="41" Click="btnAutorization_Click" Background="#FF32B747" FontFamily="Arial" Cursor="Hand"/>
+        <TextBox x:Name="tblogin" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="174" FontFamily="Arial" Text="Admin"/>
+        <TextBox x:Name="tbPassword" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Admin" VerticalAlignment="Top" Height="47" Width="174" FontFamily="Arial" RenderTransformOrigin="0.489,0.54" Margin="0,143,0,0" Grid.Row="2" TextAlignment="Center"/>
+        <Label Content="Login" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="66" FontFamily="Arial"/>
+        <Label Content="Password" FontSize="20" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" Width="110" FontFamily="Arial"/>
+    </Grid>
+</Window>
